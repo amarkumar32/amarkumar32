@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Function to calculate the sum of Fibonacci series up to N
 int sumFibonacci(int n) {
     int a = 0, b = 1, sum = 0, next;
 
@@ -17,14 +16,12 @@ int sumFibonacci(int n) {
 int main() {
     int n;
 
-    // Input the value of N from the user
+    
     printf("Enter the value of N: ");
     scanf("%d", &n);
 
-    // Calculate the sum of Fibonacci series up to N
+    
     int sum = sumFibonacci(n);
-
-    // Output the result
     printf("The sum of Fibonacci series up to %d is: %d\n", n, sum);
 
     return 0;
